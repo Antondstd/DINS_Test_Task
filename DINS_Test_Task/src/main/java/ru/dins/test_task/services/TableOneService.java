@@ -29,7 +29,7 @@ public class TableOneService {
         logger.info("Need to generate " + rowsLeft + " rows");
         if (rowsLeft > 0){
             ArrayList<TableOne> listTableOne = new ArrayList<TableOne>();
-            for (int i = (int) (1000 - rowsLeft); i < 1000; i ++)
+            for (long i = amountOfRows; i <= 1000; i ++)
             listTableOne.add(new TableOne("entity_" + i));
             tableOneRepository.saveAll(listTableOne);
         }
