@@ -1,4 +1,4 @@
-package ru.dins.test_task.Configurations;
+package ru.dins.test_task.configurations;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -10,7 +10,7 @@ import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.kafka.support.serializer.JsonSerializer;
-import ru.dins.test_task.Models.TableOne;
+import ru.dins.test_task.models.TableOne;
 
 import java.util.HashMap;
 

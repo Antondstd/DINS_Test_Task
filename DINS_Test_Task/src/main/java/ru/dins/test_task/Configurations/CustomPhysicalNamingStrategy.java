@@ -1,4 +1,4 @@
-package ru.dins.test_task.Configurations;
+package ru.dins.test_task.configurations;
 
 
 import org.hibernate.boot.model.naming.Identifier;

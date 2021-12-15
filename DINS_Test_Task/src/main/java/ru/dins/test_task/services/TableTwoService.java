@@ -2,8 +2,8 @@ package ru.dins.test_task.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.dins.test_task.Models.TableTwo;
-import ru.dins.test_task.Repositories.TableTwoRepository;
+import ru.dins.test_task.models.TableTwo;
+import ru.dins.test_task.repositories.TableTwoRepository;
 
 @Service
 public class TableTwoService {

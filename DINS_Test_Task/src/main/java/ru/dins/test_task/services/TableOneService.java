@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
-import ru.dins.test_task.Models.TableOne;
-import ru.dins.test_task.Repositories.TableOneRepository;
+import ru.dins.test_task.models.TableOne;
+import ru.dins.test_task.repositories.TableOneRepository;
 
 import java.util.ArrayList;
 import java.util.List;

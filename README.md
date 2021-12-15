@@ -11,7 +11,7 @@ table.custom.two = customTableTwo
 ### Адрес Kafka 
 #### Пример
 kafka.bootstrap_server_config = localhost:9092
-### Насзвание топика
+### Название топика
 #### Пример
 kafka.customForTableOne.topic = TableOneTopic
 ### ID Lister-а
@@ -35,4 +35,10 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/SOA_Lab1
 spring.datasource.username=postgres
 ### Пароль
 spring.datasource.password=1234567
+
+## Сборка приложения
+gradle build
+
+## Запуск приложения
+java -jar DINS_Test_Task-0.0.1-SNAPSHOT.jar
 

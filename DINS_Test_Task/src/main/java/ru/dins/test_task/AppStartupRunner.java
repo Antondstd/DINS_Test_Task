@@ -8,7 +8,7 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.kafka.config.KafkaListenerEndpointRegistry;
 import org.springframework.stereotype.Component;
-import ru.dins.test_task.Models.TableOne;
+import ru.dins.test_task.models.TableOne;
 import ru.dins.test_task.services.TableOneService;
 
 import java.util.List;

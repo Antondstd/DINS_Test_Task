@@ -1,4 +1,4 @@
-package ru.dins.test_task.Models;
+package ru.dins.test_task.models;
 
 import javax.persistence.*;
 import java.time.ZonedDateTime;
