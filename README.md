@@ -3,21 +3,24 @@
 ## Настройки для приложения производятся через файл application.properties:
 ## Настройка таблиц
 ### Имя для таблицы 1
-table.custom.one = customTableOne
+#### Пример
+> table.custom.one = customTableOne
 ### Имя для таблицы 2
-table.custom.two = customTableTwo
+#### Пример
+> table.custom.two = customTableTwo
 
 ## Настройки Kafka
 ### Адрес Kafka 
 #### Пример
-kafka.bootstrap_server_config = localhost:9092
+> kafka.bootstrap_server_config = localhost:9092
 ### Название топика
 #### Пример
-kafka.customForTableOne.topic = TableOneTopic
+> kafka.customForTableOne.topic = TableOneTopic
 ### ID Lister-а
 #### Пример
 kafka.customForTableOne.id = TableOne
-### Указываем время простоя в мс, через которое будет выключен Listener, если не придут сообщения.
+### Время простоя
+Указываем время в мс, через которое будет выключен Listener, если не придут сообщения.
 kafka.listener.idletime = 5000
 
 ## Выбор режима
@@ -26,19 +29,19 @@ kafka.listener.idletime = 5000
 ### readKafka
 Считывает из топика и записывает информацию в таблицу. Выключение программы произойдет, если в топике не будет сообщений для считывания, указанном во времени простоя.
 #### Пример
-mode = spamKafka
+> mode = spamKafka
 
 ## Настройки Hibernate
 ### Адрес для подключения
-spring.datasource.url=jdbc:postgresql://localhost:5432/SOA_Lab1
+> spring.datasource.url=jdbc:postgresql://localhost:5432/SOA_Lab1
 ### Логин
-spring.datasource.username=postgres
+> spring.datasource.username=postgres
 ### Пароль
-spring.datasource.password=1234567
+> spring.datasource.password=1234567
 
 ## Сборка приложения
-gradle build
+> gradle build
 
 ## Запуск приложения
-java -jar DINS_Test_Task-0.0.1-SNAPSHOT.jar
+> java -jar DINS_Test_Task-0.0.1-SNAPSHOT.jar
 
