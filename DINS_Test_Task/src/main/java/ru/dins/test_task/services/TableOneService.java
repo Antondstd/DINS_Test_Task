@@ -39,7 +39,7 @@ public class TableOneService {
     String customTableOnetopic;
 
     public void sendToKafka(TableOne tableOne){
-        logger.info("Sending to Kafka TableOneTopic entity with name: " + tableOne.getName());
+        logger.info("Sending to Kafka " + customTableOnetopic + " entity with name: " + tableOne.getName());
         kafkaTemplate.send(customTableOnetopic,tableOne);
     }
 
